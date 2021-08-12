@@ -29,22 +29,6 @@ function createEl(arr) {
 createEl(images)
 
 
-/*const galleryRef = document.querySelector('#gallery');
-galleryRef.classList.add('gallery-list');
 
-function ceateElement(arr) {
-  const imagesAsLi = arr.map(item => {
-    const imageAsListItem = document.createElement('li');
-    imageAsListItem.insertAdjacentHTML(
-      'beforeend',
-      `<img src="${item.url}" alt="${item.alt}" width = 300px>`,
-    );
-    //imageAsListItem.setAttribute('class', 'gallery-list__item');
-
-    return imageAsListItem;
-  });
-
-  return gallery.append(...imagesAsLi);
-}*/
 
 
